@@ -1,0 +1,30 @@
+@import "_nullstyle";
+@import "_header";
+
+body {
+  text-align: center;
+}
+
+.block {
+  height: 640px;
+  border-radius: 0 0 300px 300px;
+  background: yellow;
+  .logo {
+    padding: 30px;
+    text-align: left;
+  }
+}
+
+.h2 {
+  padding: 50px 0 0 0;
+  font-size: 55px;
+  font-family: Heebo;
+  span {
+    font-weight: 700;
+  }
+}
+
+.wrapper {
+  font-size: 20px;
+  line-height: 20px;
+}
